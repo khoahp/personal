@@ -1,0 +1,9 @@
+Bundle-Name: sample-mvc-api
+Bundle-SymbolicName: sample.mvc.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	sample.mvc.exception,\
+	sample.mvc.model,\
+	sample.mvc.service,\
+	sample.mvc.service.persistence
+-includeresource: META-INF/service.xml=../sample-mvc-service/service.xml
